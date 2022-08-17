@@ -12,7 +12,8 @@ import './App.css';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import RenderingLists from './components/RenderingLists';
-import Clock from './components/Clock';
+// import Clock from './components/Clock';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
       {/* <RenderingLists /> */}
-      <Clock />
+      {/* <Clock /> */}
+      <LifeCyclesCDM />
     </div>
   );
 }
