@@ -16,9 +16,10 @@ import './App.css';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
-import UncontrolledForm from './components/UncontrolledForm';
-import ControlledForm from './components/ControlledForm';
-import UncontrolledFormWithRefs from './components/UncontrolledFormWithRefs';
+// import UncontrolledForm from './components/UncontrolledForm';
+// import ControlledForm from './components/ControlledForm';
+// import UncontrolledFormWithRefs from './components/UncontrolledFormWithRefs';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
@@ -40,9 +41,10 @@ function App() {
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
-      <UncontrolledForm /><hr />
-      <ControlledForm /><hr />
-      <UncontrolledFormWithRefs /><hr />
+      {/* <UncontrolledForm /><hr /> */}
+      {/* <ControlledForm /><hr /> */}
+      {/* <UncontrolledFormWithRefs /><hr /> */}
+      <SearchBar />
     </div>
   );
 }
