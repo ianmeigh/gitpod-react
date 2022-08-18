@@ -15,7 +15,10 @@ import './App.css';
 // import Clock from './components/Clock';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
 // import LifeCyclesCDU from './components/LifeCyclesCDU';
-import LifeCyclesCWU from './components/LifeCyclesCWU';
+// import LifeCyclesCWU from './components/LifeCyclesCWU';
+import UncontrolledForm from './components/UncontrolledForm';
+import ControlledForm from './components/ControlledForm';
+import UncontrolledFormWithRefs from './components/UncontrolledFormWithRefs';
 
 function App() {
   return (
@@ -36,7 +39,10 @@ function App() {
       {/* <Clock /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
-      <LifeCyclesCWU />
+      {/* <LifeCyclesCWU /> */}
+      <UncontrolledForm /><hr />
+      <ControlledForm /><hr />
+      <UncontrolledFormWithRefs /><hr />
     </div>
   );
 }
