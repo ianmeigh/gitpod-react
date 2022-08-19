@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-export default function HooksCounter(props) {
+export default function CIHooksCounter(props) {
   // count: a new state property
   // setCount: a method to update count
   // useState(0): initialize count to 0
   const [count, setCount] = useState(0);
+  
 
   return (
     <div className="greeting">

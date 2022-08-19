@@ -1,25 +1,24 @@
 import './App.css';
-// import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
-// import StatefulGreeting from "./components/StatefulGreeting";
-// import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
-// import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-// import EventsFunctional from './components/EventsFunctional';
-// import EventsClass from './components/EventsClass';
-// import EventBinding from './components/EventBinding';
-// import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-// import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-// import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-// import NestingComponents from './components/NestingComponents';
-// import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-// import RenderingLists from './components/RenderingLists';
-// import Clock from './components/Clock';
-// import LifeCyclesCDM from './components/LifeCyclesCDM';
-// import LifeCyclesCDU from './components/LifeCyclesCDU';
-// import LifeCyclesCWU from './components/LifeCyclesCWU';
-// import UncontrolledForm from './components/UncontrolledForm';
-// import ControlledForm from './components/ControlledForm';
-// import UncontrolledFormWithRefs from './components/UncontrolledFormWithRefs';
-import SearchBar from './components/SearchBar';
+// import FunctionalGreetingWithProps from './components/2_Functional_Components/FunctionalGreetingWithProps';
+// import StatefulGreeting from "./components/3_Class_Components/StatefulGreeting";
+// import StatefulGreetingWithCallback from './components/3_Class_Components/StatefulGreetingWithCallback';
+// import StatefulGreetingWithPrevState from './components/3_Class_Components/StatefulGreetingWithPrevState';
+// import EventsFunctional from './components/4_Handling_Events/EventsFunctional';
+// import EventsClass from './components/4_Handling_Events/EventsClass';
+// import EventBinding from './components/4_Handling_Events/EventBinding';
+// import ConditionalRenderingFunctional from './components/4_Handling_Events/ConditionalRenderingFunctional';
+// import ConditionalRenderingClass from './components/4_Handling_Events/ConditionalRenderingClass';
+// import NestingComponents from './components/4_Handling_Events/NestingComponents';
+// import MethodsAsPropsParent from './components/4_Handling_Events/MethodsAsPropsParent';
+// import RenderingLists from './components/5_Rendering_Lists/RenderingLists';
+// import Clock from './components/6_Lifecycle_Methods/Clock';
+// import LifeCyclesCDM from './components/6_Lifecycle_Methods/LifeCyclesCDM';
+// import LifeCyclesCDU from './components/6_Lifecycle_Methods/LifeCyclesCDU';
+// import LifeCyclesCWU from './components/6_Lifecycle_Methods/LifeCyclesCWU';
+// import UncontrolledForm from './components/7_Forms/UncontrolledForm';
+// import ControlledForm from './components/7_Forms/ControlledForm';
+// import UncontrolledFormWithRefs from './components/7_Forms/UncontrolledFormWithRefs';
+import SearchBar from './components/7_Forms/SearchBar';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FunctionalGreeting(props) {
+export default function CIFunctionalGreeting(props) {
   return (
     <div className="greeting">
       <h1>Hello, {props.name}!</h1>
