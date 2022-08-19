@@ -18,7 +18,13 @@ import './App.css';
 // import UncontrolledForm from './components/7_Forms/UncontrolledForm';
 // import ControlledForm from './components/7_Forms/ControlledForm';
 // import UncontrolledFormWithRefs from './components/7_Forms/UncontrolledFormWithRefs';
-import SearchBar from './components/7_Forms/SearchBar';
+// import SearchBar from './components/7_Forms/SearchBar';
+// import CIStatefulGreeting from './components/1_React_Components /CIStatefulGreeting';
+// import CIHooksCounter from './components/1_React_Components /CIHooksCounter';
+// import ControlledFormHooks from './components/8_Hooks/useState/ControlledFormHooks';
+// import UseStateWithArrays from './components/8_Hooks/useState/UseStateWithArrays';
+// import UseStateWithObjects from './components/8_Hooks/useState/UseStateWithObjects';
+import ClassCounter from './components/8_Hooks/useState/ClassCounter';
 
 function App() {
   return (
@@ -43,7 +49,13 @@ function App() {
       {/* <UncontrolledForm /><hr /> */}
       {/* <ControlledForm /><hr /> */}
       {/* <UncontrolledFormWithRefs /><hr /> */}
-      <SearchBar />
+      {/* <SearchBar /> */}
+      {/* <StatefulGreeting /> */}
+      {/* <HooksCounter /> */}
+      {/* <ControlledFormHooks /> */}
+      {/* <UseStateWithArrays /> */}
+      {/* <UseStateWithObjects /> */}
+      <ClassCounter />
     </div>
   );
 }
