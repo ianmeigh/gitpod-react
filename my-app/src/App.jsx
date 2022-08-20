@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 // import FunctionalGreetingWithProps from './components/2_Functional_Components/FunctionalGreetingWithProps';
 // import StatefulGreeting from "./components/3_Class_Components/StatefulGreeting";
 // import StatefulGreetingWithCallback from './components/3_Class_Components/StatefulGreetingWithCallback';
@@ -24,7 +24,9 @@ import './App.css';
 // import ControlledFormHooks from './components/8_Hooks/useState/ControlledFormHooks';
 // import UseStateWithArrays from './components/8_Hooks/useState/UseStateWithArrays';
 // import UseStateWithObjects from './components/8_Hooks/useState/UseStateWithObjects';
-import ClassCounter from './components/8_Hooks/useState/ClassCounter';
+// import ClassCounter from './components/8_Hooks/useState/ClassCounter';
+// import UseEffectCounter from './components/8_Hooks/useEffect/UseEffectCounter';
+import UseEffectCounterContainer from "./components/8_Hooks/useEffect/UseEffectCounterContainer";
 
 function App() {
   return (
@@ -55,7 +57,9 @@ function App() {
       {/* <ControlledFormHooks /> */}
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
-      <ClassCounter />
+      {/* <ClassCounter /> */}
+      {/* <UseEffectCounter /> */}
+      <UseEffectCounterContainer />
     </div>
   );
 }
