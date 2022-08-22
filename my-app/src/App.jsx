@@ -26,7 +26,10 @@ import "./App.css";
 // import UseStateWithObjects from './components/8_Hooks/useState/UseStateWithObjects';
 // import ClassCounter from './components/8_Hooks/useState/ClassCounter';
 // import UseEffectCounter from './components/8_Hooks/useEffect/UseEffectCounter';
-import UseEffectCounterContainer from "./components/8_Hooks/useEffect/UseEffectCounterContainer";
+// import UseEffectCounterContainer from "./components/8_Hooks/useEffect/UseEffectCounterContainer";
+// import HTTPGet from "./components/9_Network_Requests/HTTPRequests";
+// import HTTPPost from "./components/9_Network_Requests/HTTPPost";
+import HTTPHooks from "./components/9_Network_Requests/HTTPHooks";
 
 function App() {
   return (
@@ -59,7 +62,10 @@ function App() {
       {/* <UseStateWithObjects /> */}
       {/* <ClassCounter /> */}
       {/* <UseEffectCounter /> */}
-      <UseEffectCounterContainer />
+      {/* <UseEffectCounterContainer /> */}
+      {/* <HTTPGet /> */}
+      {/* <HTTPPost /> */}
+      <HTTPHooks />
     </div>
   );
 }
