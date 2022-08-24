@@ -29,7 +29,10 @@ import "./App.css";
 // import UseEffectCounterContainer from "./components/8_Hooks/useEffect/UseEffectCounterContainer";
 // import HTTPGet from "./components/9_Network_Requests/HTTPRequests";
 // import HTTPPost from "./components/9_Network_Requests/HTTPPost";
-import HTTPHooks from "./components/9_Network_Requests/HTTPHooks";
+// import HTTPHooks from "./components/9_Network_Requests/HTTPHooks";
+import ClassComponent from "./components/10_React_Conf/ClassComponent";
+import FunctionalComponent from "./components/10_React_Conf/FunctionalComponent";
+import FunctionalComponentWithImprovedReusability from "./components/10_React_Conf/FunctionalComponentWithImprovedReusability";
 
 function App() {
   return (
@@ -65,7 +68,10 @@ function App() {
       {/* <UseEffectCounterContainer /> */}
       {/* <HTTPGet /> */}
       {/* <HTTPPost /> */}
-      <HTTPHooks />
+      {/* <HTTPHooks /> */}
+      <ClassComponent />
+      <FunctionalComponent />
+      <FunctionalComponentWithImprovedReusability />
     </div>
   );
 }
